@@ -7,7 +7,10 @@ The dataset used in this project contains news titles labeled as Fake or Real. T
 The dataset was taken from Kaggle.
 https://www.kaggle.com/datasets/saurabhshahane/fake-news-classification 
 
+
+
 **Workflow**
+
 Text Preprocessing:
 
 Tokenization: Splitting the text into individual tokens (words).
@@ -17,11 +20,15 @@ Lemmatization: Converting words to their base forms.
 Data Cleansing: Removing stopwords, special characters, and numbers.
 
 
-Vectorization:
+
+
+**Vectorization:**
 
 CountVectorizer: Converts text data into a matrix of token counts.
 
 TFIDFVectorizer: Converts text data into a matrix of TF-IDF features.
+
+
 
 
 **Modeling:**
@@ -32,6 +39,8 @@ Logistic Regression,
 Support Vector Classifier (SVC) and 
 Random Forest Classifier
 Models were trained using both CountVectorizer and TFIDFVectorizer features.
+
+
 
 **Evaluation:**
 
